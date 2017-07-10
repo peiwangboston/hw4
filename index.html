@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystals Collector</title>
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript " src="assets/javascript/game5.js "></script>
+</head>
+
+<body>
+    <div id="containerDiv">
+        <header>
+            <h1 id="name">Crystals Collector!</h1>
+        </header>
+        <!--Div for instructions-->
+        <div id="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random number. You lose the game if your total score exceeds the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it</p>
+            <p>Each time when the game starts, the game changes the values of each crystal.</p>
+        </div>
+        <!--Div to hold computer-generated random number -->
+        <div id="randomDiv">
+            <p id="demo">
+                <!-- <input name="myFunction()"> -->
+            </p>
+        </div>
+        <!--Div to tally result in wins or losses-->
+        <div class="result">
+            <div>
+                Wins:
+                <span id="wins"></span> </div>
+            <div>Losses:
+                <span id="losses"></span>
+            </div>
+        </div>
+        <!--Div for crystals-->
+        <div class="crystals">
+            <img src="assets/images/red.png" id="red">
+            <img src="assets/images/blue.png" id="blue">
+            <img src="assets/images/yellow.png" id="yellow">
+            <img src="assets/images/green.png" id="green">
+        </div>
+        <!--Div for text box-->
+        <div class="score">
+            <p>Your total score is:</p>
+        </div>
+        <!--Div to show calculated total score-->
+        <span>
+            <h2 id="scoreTotal">0</h2>
+        </span>
+</body>

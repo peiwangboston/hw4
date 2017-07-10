@@ -1,0 +1,93 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+h1 {
+    background-color: #FF5200;
+    color: white;
+    display: inline;
+    clear: both;
+    padding: 15px;
+    border: solid 1px #ddd;
+}
+
+#containerDiv {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#instructions {
+    background-color: #FFCC99;
+    color: #339966;
+    width: 50%;
+    clear: both;
+    padding: 15px;
+    margin-top: 20px;
+    border: solid 1px #ddd float: left;
+}
+
+#randomDiv {
+    background-color: #339966;
+    width: 20%;
+    clear: both;
+    padding: 15px;
+    margin-top: 20px;
+    border: solid 1px #ddd;
+}
+
+p#demo {
+    font-family: Arial, "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+.result {
+    background-color: #03A9F4;
+    display: inline-block;
+    clear: both;
+    padding: 15px 20px 10px 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: solid 1px #ddd
+}
+
+.score {
+    background-color: #339966;
+    width: 20%;
+    clear: both;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border: solid 1px #ddd
+}
+
+#scoreTotal {
+    background-color: #339966;
+    width: 20%;
+    clear: both;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+    border: solid 1px #ddd
+}
+
+.cyrstals {
+    /*background-color: white;*/
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.crystalImage {
+    height: 111px;
+    border: solid 1px #272525;
+    margin-left: 10px
+}
+
+.crystalImage:firstchild {
+    margin-left: 0px;
+}
